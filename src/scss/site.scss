@@ -1,3 +1,5 @@
+@import 'variables';
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -8,7 +10,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-family, sans-serif;
   font-size: 14px;
   line-height: 1.5714;
 }
@@ -17,4 +19,9 @@ body {
 ::before,
 ::after {
   box-sizing: border-box;
+}
+
+.header__inner {
+  display: flex;
+  padding: 30px 50px;
 }

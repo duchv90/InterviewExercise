@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/headers/Header';
-import './App.css';
+import './scss/site.scss';
 
 class App extends Component {
   state = {};

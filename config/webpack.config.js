@@ -93,6 +93,12 @@ module.exports = function(webpackEnv) {
             require('postcss-flexbugs-fixes'),
             require('postcss-preset-env')({
               autoprefixer: {
+                browsers: [
+                  '>1%',
+                  'last 3 versions',
+                  'Firefox ESR',
+                  'not ie < 9',
+                ],
                 flexbox: 'no-2009',
               },
               stage: 3,
