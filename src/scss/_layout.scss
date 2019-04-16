@@ -1,0 +1,11 @@
+.main {
+  min-height: calc(100vh - 144px);
+
+  &__inner {
+    padding: 30px;
+  }
+}
+
+.basic-content {
+  padding: 30px 0;
+}
