@@ -1,14 +1,14 @@
 {
-  "main.css": "/InterviewExercise/static/css/main.fff5ee56.chunk.css",
-  "main.js": "/InterviewExercise/static/js/main.19f9d5fa.chunk.js",
-  "main.js.map": "/InterviewExercise/static/js/main.19f9d5fa.chunk.js.map",
+  "main.css": "/InterviewExercise/static/css/main.50f19108.chunk.css",
+  "main.js": "/InterviewExercise/static/js/main.3c31efc5.chunk.js",
+  "main.js.map": "/InterviewExercise/static/js/main.3c31efc5.chunk.js.map",
   "runtime~main.js": "/InterviewExercise/static/js/runtime~main.ccd005b6.js",
   "runtime~main.js.map": "/InterviewExercise/static/js/runtime~main.ccd005b6.js.map",
-  "static/js/2.0490df6e.chunk.js": "/InterviewExercise/static/js/2.0490df6e.chunk.js",
-  "static/js/2.0490df6e.chunk.js.map": "/InterviewExercise/static/js/2.0490df6e.chunk.js.map",
+  "static/js/2.c465648c.chunk.js": "/InterviewExercise/static/js/2.c465648c.chunk.js",
+  "static/js/2.c465648c.chunk.js.map": "/InterviewExercise/static/js/2.c465648c.chunk.js.map",
   "index.html": "/InterviewExercise/index.html",
-  "precache-manifest.8ab8a7b9d6a42d5897da44f11f4eaffa.js": "/InterviewExercise/precache-manifest.8ab8a7b9d6a42d5897da44f11f4eaffa.js",
+  "precache-manifest.5911d6c0b8185824d4049b7ccb7fb813.js": "/InterviewExercise/precache-manifest.5911d6c0b8185824d4049b7ccb7fb813.js",
   "service-worker.js": "/InterviewExercise/service-worker.js",
-  "static/css/main.fff5ee56.chunk.css.map": "/InterviewExercise/static/css/main.fff5ee56.chunk.css.map",
+  "static/css/main.50f19108.chunk.css.map": "/InterviewExercise/static/css/main.50f19108.chunk.css.map",
   "static/media/logo.png": "/InterviewExercise/static/media/logo.3f934b2b.png"
 }
