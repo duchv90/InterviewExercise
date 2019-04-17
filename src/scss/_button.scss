@@ -1,0 +1,224 @@
+.btn,
+button {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 10px 30px;
+  color: $button-color;
+  background-color: $button-bg;
+  border: 1px solid $button-border;
+  border-radius: 4px;
+  font-size: $font-size;
+  line-height: 20px;
+  text-align: center;
+
+  &:active {
+    background-color: $button-active;
+  }
+
+  i {
+    margin-right: 3px;
+  }
+
+  &[disabled] {
+    pointer-events: none;
+    opacity: .6;
+  }
+
+  & + .btn,
+  & + button {
+    margin-top: 15px;
+  }
+
+  &--small {
+    padding: 6px 20px;
+    font-size: $font-size - 2;
+  }
+
+  &--medium {
+    padding: 12px 35px;
+    font-size: $font-size + 2;
+  }
+
+  &--large {
+    padding: 15px 40px;
+    font-size: $font-size + 4;
+  }
+
+  &--primary {
+    color: $white;
+    background-color: $color-primary;
+    border-color: lighten($color-primary, 5%);
+
+    &:active {
+      background-color: darken($color-primary, 5%);
+    }
+  }
+
+  &--red {
+    color: $white;
+    background-color: $red;
+    border-color: lighten($red, 5%);
+
+    &:active {
+      background-color: darken($red, 5%);
+    }
+  }
+
+  &--orange {
+    color: $white;
+    background-color: $orange;
+    border-color: lighten($orange, 5%);
+
+    &:active {
+      background-color: darken($orange, 5%);
+    }
+  }
+
+  &--yellow {
+    color: $white;
+    background-color: $yellow;
+    border-color: lighten($yellow, 5%);
+
+    &:active {
+      background-color: darken($yellow, 5%);
+    }
+  }
+
+  &--olive {
+    color: $white;
+    background-color: $olive;
+    border-color: lighten($olive, 5%);
+
+    &:active {
+      background-color: darken($olive, 5%);
+    }
+  }
+
+  &--green {
+    color: $white;
+    background-color: $green;
+    border-color: lighten($green, 5%);
+
+    &:active {
+      background-color: darken($green, 5%);
+    }
+  }
+
+  &--teal {
+    color: $white;
+    background-color: $teal;
+    border-color: lighten($teal, 5%);
+
+    &:active {
+      background-color: darken($teal, 5%);
+    }
+  }
+
+  &--blue {
+    color: $white;
+    background-color: $blue;
+    border-color: lighten($blue, 5%);
+
+    &:active {
+      background-color: darken($blue, 5%);
+    }
+  }
+
+  &--violet {
+    color: $white;
+    background-color: $violet;
+    border-color: lighten($violet, 5%);
+
+    &:active {
+      background-color: darken($violet, 5%);
+    }
+  }
+
+  &--purple {
+    color: $white;
+    background-color: $purple;
+    border-color: lighten($purple, 5%);
+
+    &:active {
+      background-color: darken($purple, 5%);
+    }
+  }
+
+  &--pink {
+    color: $white;
+    background-color: $pink;
+    border-color: lighten($pink, 5%);
+
+    &:active {
+      background-color: darken($pink, 5%);
+    }
+  }
+
+  &--brown {
+    color: $white;
+    background-color: $brown;
+    border-color: lighten($brown, 5%);
+
+    &:active {
+      background-color: darken($brown, 5%);
+    }
+  }
+
+  &--grey {
+    color: $white;
+    background-color: $grey;
+    border-color: lighten($grey, 5%);
+
+    &:active {
+      background-color: darken($grey, 5%);
+    }
+  }
+
+  &--black {
+    color: $white;
+    background-color: $black;
+    border-color: lighten($black, 5%);
+
+    &:active {
+      background-color: darken($black, 5%);
+    }
+  }
+
+  &--back {
+    padding: 0;
+    color: $text-color;
+    border-color: $nocolor;
+    background-color: $nocolor;
+    text-align: left;
+  }
+
+  &--inline-block {
+    display: inline-block;
+    width: auto;
+  }
+
+  &--circle {
+    width: 42px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 50%;
+    overflow: hidden;
+
+    i {
+      margin-right: 0;
+      line-height: 20px;
+    }
+  }
+
+  &--loading {
+    pointer-events: none;
+  }
+}
+
+.button-inline {
+  .btn,
+  button {
+    margin-right: .25em;
+  }
+}
