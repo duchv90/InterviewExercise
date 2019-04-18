@@ -1,6 +1,6 @@
 # InterviewExercise
 
-# Eslint
+# RUN
 ```
-yarn add --dev eslint prettier eslint-config-airbnb eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y
+yarn start
 ```

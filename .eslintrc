@@ -24,6 +24,6 @@
       "components": [ "Label" ],
       "allowChildren": true
     }],
-    "no-shadow": "off",
+    "no-shadow": "off"
   }
 }
